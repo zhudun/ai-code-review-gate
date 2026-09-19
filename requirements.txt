@@ -1,0 +1,4 @@
+# Dev / test dependencies only. The core engine depends on the Python
+# standard library so the GitHub Action stays lightweight and needs no
+# external packages at runtime.
+pytest>=8
